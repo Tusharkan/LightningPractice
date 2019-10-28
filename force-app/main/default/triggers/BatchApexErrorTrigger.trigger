@@ -9,7 +9,7 @@ trigger BatchApexErrorTrigger on BatchApexErrorEvent (after insert) {
         blc.AsyncApexJobId__c = bae.AsyncApexJobId;
         blc.Records__c = bae.JobScope;
         blc.StackTrace__c = bae.StackTrace;
-        
+        /* add to list */
         ll.add(blc);
     }
     if(ll.size() > 0)
