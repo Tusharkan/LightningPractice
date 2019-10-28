@@ -15,8 +15,8 @@ trigger BatchApexErrorTrigger on BatchApexErrorEvent (after insert) {
     if(ll.size() > 0)
     {
         insert ll;
-        String v1 = 'data inserted';
+        String v1 = 'data inserted into the list';
         System.debug(v1);
-        /* output */
+       
     }
 }
