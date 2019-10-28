@@ -1,0 +1,15 @@
+{
+  "status": 0,
+  "result": {
+    "createdById": "0056F000009pdCcQAI",
+    "createdByName": "Tusharkanta Sethi",
+    "createdDate": "2019-08-03T13:50:38.000Z",
+    "fileName": "testSuites/exmp1.testSuite",
+    "fullName": "exmp1",
+    "id": "05F6F000000k9wuUAA",
+    "lastModifiedById": "0056F000009pdCcQAI",
+    "lastModifiedByName": "Tusharkanta Sethi",
+    "lastModifiedDate": "2019-08-03T13:50:47.000Z",
+    "type": "ApexTestSuite"
+  }
+}
