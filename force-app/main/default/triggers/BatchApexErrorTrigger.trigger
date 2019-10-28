@@ -17,6 +17,6 @@ trigger BatchApexErrorTrigger on BatchApexErrorEvent (after insert) {
         insert ll;
         String v1 = 'data inserted into the list';
         System.debug(v1);
-       System.debug('insert to git repository');
+       System.debug('insert to git repository ..');
     }
 }
